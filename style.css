@@ -1,0 +1,153 @@
+body {
+    background: #0a1b2a;
+  }
+  
+  #boardGame {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    margin-top: 50px;
+    border: solid 15px #333;
+    border-radius: 50%;
+  }
+  
+  .simonButton {
+    margin: 0px;
+    position: relative;
+    height: 235px;
+    width: 235px;
+    float: left;
+    border: solid 15px #333;
+  }
+  
+  #green {
+    background: #27ae60;
+    border-radius: 100% 0 0 0;
+  }
+  #green:active,
+  #green.jqactive {
+    background: #009f00;
+  }
+  
+  #red {
+    background: #cf2f2f;
+    border-radius: 0 100% 0 0;
+  }
+  #red:active,
+  #red.jqactive {
+    background: #ff0000;
+  }
+  
+  #yellow {
+    background: #f39c12;
+    border-radius: 0 0 0 100%;
+  }
+  #yellow:active,
+  #yellow.jqactive {
+    background: #ffff00;
+  }
+  
+  #blue {
+    background: #045fb4;
+    border-radius: 0 0 100% 0;
+  }
+  #blue:active,
+  #blue.jqactive {
+    background: #003399;
+  }
+  
+  .controls {
+    position: absolute;
+    min-width: 250px;
+    height: 250px;
+    margin: 110px;
+    background: #ddd;
+    border: solid 15px #333;
+    border-radius: 100%;
+  }
+  
+  .counter,
+  .start,
+  .strict {
+    display: inline-block;
+    margin: 5px;
+    padding: auto;
+  }
+  
+  .title {
+    margin-top: 25px;
+    font-family: "Alfa Slab One", cursive;
+    font-size: 48px;
+    color: #333;
+  }
+  
+  #number {
+    background: #4e1510;
+    font-size: 30px;
+    border: solid 3px #333;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .active {
+    cursor: pointer;
+  }
+  
+  .start-btn,
+  .strict-btn {
+    height: 25px;
+    width: 25px;
+    border: solid 2px #333;
+    border-radius: 50%;
+    margin: 10px 15px;
+  }
+  
+  .start-btn {
+    background: #ff1e10;
+  }
+  
+  .strict-btn {
+    background: #ffca11;
+  }
+  
+  .strict-status {
+    height: 6px;
+    width: 6px;
+    border: solid 1px #333;
+    border-radius: 50%;
+    margin: -9px 16px;
+    background: red;
+  }
+  
+  .strict-status.active {
+    background: green;
+  }
+  
+  .switchContainer p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .redNum {
+    color: red;
+  }
+  
+  .switchOn {
+    float: right;
+  }
+  
+  .outerSwitch {
+    display: inline-block;
+    height: 20px;
+    width: 40px;
+    background: #333;
+    border: solid 3px #333;
+    cursor: pointer;
+  }
+  
+  .innerSwitch {
+    height: 14px;
+    width: 17px;
+    background: #c2571e;
+  }
